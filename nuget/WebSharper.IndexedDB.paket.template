@@ -1,0 +1,22 @@
+type file
+id WebSharper.Popover
+authors
+    IntelliFactory
+owners
+    IntelliFactory
+repositoryType git
+repositoryUrl https://github.com/dotnet-websharper/popover/
+licenseUrl https://github.com/dotnet-websharper/popover/blob/master/LICENSE.md
+iconUrl https://github.com/dotnet-websharper/core/raw/websharper50/tools/WebSharper.png
+projectUrl https://github.com/dotnet-websharper/popover
+description
+    WebSharper bindings for the W3C Popover API
+tags
+    Web JavaScript F# C#
+files
+    ../WebSharper.Bindings.Popover/bin/Release/netstandard2.0/WebSharper.Bindings.Popover.dll ==> lib/netstandard2.0
+    ../WebSharper.Bindings.Popover/bin/Release/netstandard2.0/WebSharper.Bindings.Popover.xml ==> lib/netstandard2.0
+    ../WebSharper.Popover/bin/Release/netstandard2.0/WebSharper.Popover.dll ==> lib/netstandard2.0
+    ../WebSharper.Popover/bin/Release/netstandard2.0/WebSharper.Popover.xml ==> lib/netstandard2.0
+dependencies
+        WebSharper ~> LOCKEDVERSION:[3]
