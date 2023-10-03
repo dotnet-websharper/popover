@@ -12,8 +12,8 @@
 	  <Content Include="index.html" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WebSharper.Bindings.Popover\WebSharper.Bindings.Popover.fsproj" />
     <ProjectReference Include="..\WebSharper.Popover\WebSharper.Popover.fsproj" />
+    <ProjectReference Include="..\WebSharper.Popover.Extensions\WebSharper.Popover.Extensions.fsproj" />
   </ItemGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>
