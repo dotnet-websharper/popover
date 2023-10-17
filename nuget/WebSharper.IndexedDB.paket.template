@@ -14,9 +14,9 @@ description
 tags
     Web JavaScript F# C#
 files
-    ../WebSharper.Bindings.Popover/bin/Release/netstandard2.0/WebSharper.Bindings.Popover.dll ==> lib/netstandard2.0
-    ../WebSharper.Bindings.Popover/bin/Release/netstandard2.0/WebSharper.Bindings.Popover.xml ==> lib/netstandard2.0
     ../WebSharper.Popover/bin/Release/netstandard2.0/WebSharper.Popover.dll ==> lib/netstandard2.0
     ../WebSharper.Popover/bin/Release/netstandard2.0/WebSharper.Popover.xml ==> lib/netstandard2.0
+    ../WebSharper.Popover.Extensions/bin/Release/netstandard2.0/WebSharper.Popover.Extensions.dll ==> lib/netstandard2.0
+    ../WebSharper.Popover.Extensions/bin/Release/netstandard2.0/WebSharper.Popover.Extensions.xml ==> lib/netstandard2.0
 dependencies
         WebSharper ~> LOCKEDVERSION:[3]
