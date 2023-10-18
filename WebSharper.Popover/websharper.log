@@ -1,0 +1,10 @@
+2023-10-18 09:07:32.1125|DEBUG|Program|location of wsfscservice is: C:\Users\runneradmin\.nuget\packages\websharper.fsharp\7.0.2.347-beta2\tools\net6.0\win-x64 (server side)
+2023-10-18 09:07:32.1355|DEBUG|Program|pipename is: C:\Users\runneradmin\.nuget\packages\websharper.fsharp\7.0.2.347-beta2\tools\net6.0\win-x64 (server side)
+2023-10-18 09:07:32.1355|DEBUG|Program|Compiling D:\a\build-script\build-script\popover\WebSharper.Popover\WebSharper.Popover.fsproj
+2023-10-18 09:07:35.9229|TRACE|Program|Server sends: n: F# compilation: 00:00:03.8622087
+2023-10-18 09:07:36.0143|TRACE|Program|Server sends: n: Loading IExtension implementation: 00:00:00.0952923
+2023-10-18 09:07:36.0353|TRACE|Program|Server sends: n: Getting Assembly definition: 00:00:00.0210067
+2023-10-18 09:07:36.3470|TRACE|Program|Server sends: n: Built assembly: 00:00:00.3116645
+2023-10-18 09:07:36.8026|TRACE|Program|Server sends: n: Creating WebSharper metadata: 00:00:00.4555736
+2023-10-18 09:07:36.9159|TRACE|Program|Server sends: n: Writing final dll: 00:00:00.1132768
+2023-10-18 09:07:36.9159|TRACE|Program|Server sends: x: 0

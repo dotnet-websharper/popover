@@ -1,0 +1,16 @@
+2023-10-18 09:07:37.4382|DEBUG|Program|location of wsfscservice is: C:\Users\runneradmin\.nuget\packages\websharper.fsharp\7.0.2.347-beta2\tools\net6.0\win-x64 (server side)
+2023-10-18 09:07:37.4382|DEBUG|Program|pipename is: C:\Users\runneradmin\.nuget\packages\websharper.fsharp\7.0.2.347-beta2\tools\net6.0\win-x64 (server side)
+2023-10-18 09:07:37.4382|DEBUG|Program|Compiling D:\a\build-script\build-script\popover\WebSharper.Popover.Extensions\WebSharper.Popover.Extensions.fsproj
+2023-10-18 09:07:38.2095|TRACE|Program|Server sends: n: F# compilation: 00:00:00.7738980
+2023-10-18 09:07:39.0585|TRACE|Program|Server sends: n: Checking project: 00:00:00.8490350
+2023-10-18 09:07:39.0585|TRACE|Program|Server sends: n: Waiting on merged metadata: 00:00:00.0012302
+2023-10-18 09:07:39.3273|TRACE|Program|Server sends: n: Parsing with FCS: 00:00:00.2675701
+2023-10-18 09:07:39.3273|TRACE|Program|Server sends: n: Analyzing function arguments: 00:00:00.0036066
+2023-10-18 09:07:39.3793|TRACE|Program|Server sends: n: Resolving names: 00:00:00.0483745
+2023-10-18 09:07:39.3976|TRACE|Program|Server sends: n: WebSharper translation: 00:00:00.0183482
+2023-10-18 09:07:39.4257|TRACE|Program|Server sends: n: Source position transformations: 00:00:00.0281125
+2023-10-18 09:07:39.4703|TRACE|Program|Server sends: n: Packaging assembly: 00:00:00.0445641
+2023-10-18 09:07:39.4703|TRACE|Program|Server sends: n: Hashing resources: 00:00:00.0054638
+2023-10-18 09:07:39.4703|TRACE|Program|Server sends: n: Serializing metadata: 00:00:00.0014942
+2023-10-18 09:07:39.5268|TRACE|Program|Server sends: n: Writing resources into assembly: 00:00:00.0495219
+2023-10-18 09:07:39.5268|TRACE|Program|Server sends: x: 0
