@@ -1,22 +1,22 @@
-2024-03-22 13:31:47.6451|DEBUG|Program|location of wsfscservice is: C:\Users\runneradmin\.nuget\packages\websharper.fsharp\7.0.6.443-beta5\tools\net6.0\win-x64 (server side)
-2024-03-22 13:31:47.6451|DEBUG|Program|pipename is: C:\Users\runneradmin\.nuget\packages\websharper.fsharp\7.0.6.443-beta5\tools\net6.0\win-x64 (server side)
-2024-03-22 13:31:47.6451|DEBUG|Program|Compiling D:\a\build-script\build-script\popover\WebSharper.Popover.Sample\WebSharper.Popover.Sample.fsproj
-2024-03-22 13:31:47.6451|TRACE|Program|Server sends: e: WebSharper warning WS9002: Please use "spa" instead of "Bundle" for your project type
-2024-03-22 13:31:48.9633|TRACE|Program|Server sends: n: F# compilation: 00:00:01.3192224
-2024-03-22 13:31:49.6201|TRACE|Program|Server sends: n: Checking project: 00:00:00.6567853
-2024-03-22 13:31:49.6201|TRACE|Program|Server sends: n: Waiting on merged metadata: 00:00:00.0006243
-2024-03-22 13:31:49.7329|TRACE|Program|Server sends: n: Parsing with FCS: 00:00:00.1122412
-2024-03-22 13:31:49.7329|TRACE|Program|Server sends: n: Analyzing function arguments: 00:00:00.0011625
-2024-03-22 13:31:49.7329|TRACE|Program|Server sends: n: Resolving names: 00:00:00.0095896
-2024-03-22 13:31:49.8912|TRACE|Program|Server sends: n: WebSharper translation: 00:00:00.1474779
-2024-03-22 13:31:49.8912|TRACE|Program|Server sends: n: Source position transformations: 00:00:00.0015754
-2024-03-22 13:31:49.9049|TRACE|Program|Server sends: n: Packaging assembly: 00:00:00.0121522
-2024-03-22 13:31:50.0192|TRACE|Program|Server sends: n: Writing WebSharper.Popover.Sample.Client.js: 00:00:00.1143414
-2024-03-22 13:31:50.0192|TRACE|Program|Server sends: n: Writing $Generated.js: 00:00:00.0006984
-2024-03-22 13:31:50.0192|TRACE|Program|Server sends: n: Writing $EntryPoint.js: 00:00:00.0003563
-2024-03-22 13:31:50.0381|TRACE|Program|Server sends: n: Writing .d.ts files: 00:00:00.0178235
-2024-03-22 13:31:50.0381|TRACE|Program|Server sends: n: Hashing resources: 00:00:00.0006363
-2024-03-22 13:31:50.1669|TRACE|Program|Server sends: n: Serializing metadata: 00:00:00.1281682
-2024-03-22 13:31:50.1747|TRACE|Program|Server sends: n: Writing resources into assembly: 00:00:00.0077780
-2024-03-22 13:31:50.3539|TRACE|Program|Server sends: n: Bundling: 00:00:00.1791680
-2024-03-22 13:31:50.3567|TRACE|Program|Server sends: x: 0
+2024-03-29 07:54:16.7671|DEBUG|Program|location of wsfscservice is: C:\Users\runneradmin\.nuget\packages\websharper.fsharp\7.0.6.447-beta5\tools\net6.0\win-x64 (server side)
+2024-03-29 07:54:16.7671|DEBUG|Program|pipename is: C:\Users\runneradmin\.nuget\packages\websharper.fsharp\7.0.6.447-beta5\tools\net6.0\win-x64 (server side)
+2024-03-29 07:54:16.7671|DEBUG|Program|Compiling D:\a\build-script\build-script\popover\WebSharper.Popover.Sample\WebSharper.Popover.Sample.fsproj
+2024-03-29 07:54:16.7671|TRACE|Program|Server sends: e: WebSharper warning WS9002: Please use "spa" instead of "Bundle" for your project type
+2024-03-29 07:54:18.2515|TRACE|Program|Server sends: n: F# compilation: 00:00:01.4865298
+2024-03-29 07:54:19.0436|TRACE|Program|Server sends: n: Checking project: 00:00:00.7921686
+2024-03-29 07:54:19.0436|TRACE|Program|Server sends: n: Waiting on merged metadata: 00:00:00.0013046
+2024-03-29 07:54:19.1705|TRACE|Program|Server sends: n: Parsing with FCS: 00:00:00.1255868
+2024-03-29 07:54:19.1705|TRACE|Program|Server sends: n: Analyzing function arguments: 00:00:00.0008075
+2024-03-29 07:54:19.1818|TRACE|Program|Server sends: n: Resolving names: 00:00:00.0104315
+2024-03-29 07:54:19.3354|TRACE|Program|Server sends: n: WebSharper translation: 00:00:00.1536365
+2024-03-29 07:54:19.3354|TRACE|Program|Server sends: n: Source position transformations: 00:00:00.0018471
+2024-03-29 07:54:19.3501|TRACE|Program|Server sends: n: Packaging assembly: 00:00:00.0128448
+2024-03-29 07:54:19.4770|TRACE|Program|Server sends: n: Writing WebSharper.Popover.Sample.Client.js: 00:00:00.1269250
+2024-03-29 07:54:19.4770|TRACE|Program|Server sends: n: Writing $Generated.js: 00:00:00.0009286
+2024-03-29 07:54:19.4770|TRACE|Program|Server sends: n: Writing $EntryPoint.js: 00:00:00.0004027
+2024-03-29 07:54:19.4968|TRACE|Program|Server sends: n: Writing .d.ts files: 00:00:00.0184773
+2024-03-29 07:54:19.4968|TRACE|Program|Server sends: n: Hashing resources: 00:00:00.0011410
+2024-03-29 07:54:19.6484|TRACE|Program|Server sends: n: Serializing metadata: 00:00:00.1503938
+2024-03-29 07:54:19.6484|TRACE|Program|Server sends: n: Writing resources into assembly: 00:00:00.0093919
+2024-03-29 07:54:19.8546|TRACE|Program|Server sends: n: Bundling: 00:00:00.1968729
+2024-03-29 07:54:19.8546|TRACE|Program|Server sends: x: 0
