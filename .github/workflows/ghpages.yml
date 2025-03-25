@@ -28,6 +28,9 @@ jobs:
           --password "${{ secrets.PAT_PACKAGE }}" ^
           --store-password-in-clear-text
 
+      - name: Restore .NET Tools (Paket)
+        run: dotnet tool restore
+
       - name: Install Paket
         run: dotnet paket install
 
