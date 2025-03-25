@@ -30,13 +30,12 @@ jobs:
 
       - name: Restore .NET Tools (Paket)
         run: dotnet tool restore
-
+        
       - name: Add Paket credentials
-        run: paket config add-credentials https://nuget.pkg.github.com/dotnet-websharper/index.json --username intellifactory-gh --password ${{ secrets.PAT_PACKAGE }}
-      
-
+        run: dotnet tool run paket config add-credentials https://nuget.pkg.github.com/dotnet-websharper/index.json --username intellifactory-gh --password ${{ secrets.PAT_PACKAGE }}
+        
       - name: Install Paket
-        run: dotnet paket install
+        run: dotnet tool run paket install
 
       - name: Build WebSharper Project
         run: dotnet build WebSharper.Popover.Sample/WebSharper.Popover.Sample.fsproj --configuration Release
