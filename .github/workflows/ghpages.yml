@@ -31,6 +31,10 @@ jobs:
       - name: Restore .NET Tools (Paket)
         run: dotnet tool restore
 
+      - name: Add Paket credentials
+        run: paket config add-credentials https://nuget.pkg.github.com/dotnet-websharper/index.json --username intellifactory-gh --password ${{ secrets.PAT_PACKAGE }}
+      
+
       - name: Install Paket
         run: dotnet paket install
 
