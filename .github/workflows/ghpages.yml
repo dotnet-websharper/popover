@@ -28,6 +28,9 @@ jobs:
           --password "${{ secrets.PAT_PACKAGE }}" ^
           --store-password-in-clear-text
 
+      - name: Install Paket
+        run: dotnet paket install
+
       - name: Build WebSharper Project
         run: dotnet build WebSharper.Popover.Sample/WebSharper.Popover.Sample.fsproj --configuration Release
 
