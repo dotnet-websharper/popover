@@ -18,13 +18,23 @@ module Extensions =
         
         [<Inline "$this.showPopover()">]
         member this.ShowPopover() = () 
+        [<Inline "$this.showPopover($options)">]
+        member this.ShowPopover(options:ShowPopoverOptions) = () 
+
         [<Inline "$this.togglePopover()">]
-        member this.TogglePopover() = ()
-        
+        member this.TogglePopover() : bool = X<bool>
+        [<Inline "$this.togglePopover($force)">]
+        member this.TogglePopover(force: bool) : bool = X<bool>
+        [<Inline "$this.togglePopover($source)">]
+        member this.TogglePopover(source: TogglePopoverOptions) : bool = X<bool>
+        [<Inline "$this.togglePopover($force, $source)">]
+        member this.TogglePopover(force: bool, source: TogglePopoverOptions) : bool = X<bool>
+       
         [<Inline "$this.ontoggle">]
         member this.OnToggle with get()  : (ToggleEvent -> unit) = ignore
         [<Inline "$this.ontoggle = $callback">]
         member this.OnToggle with set(callback:ToggleEvent -> unit) = ()
+
         [<Inline "$this.onbeforetoggle">]
         member this.OnBeforeToggle with get()  : (ToggleEvent -> unit) = ignore
         [<Inline "$this.onbeforetoggle = $callback">]
